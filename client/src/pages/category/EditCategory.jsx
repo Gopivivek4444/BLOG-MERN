@@ -48,7 +48,7 @@ const EditCategory = () => {
 
         useEffect(() =>{
           if(categoryData) {
-            console.log(categoryData)
+            // console.log(categoryData)
             form.setValue('name', categoryData.category.name)
             formSchema.setValue('slug', categoryData.category.slug)
           }

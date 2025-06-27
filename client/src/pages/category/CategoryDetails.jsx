@@ -34,7 +34,7 @@ const CategoryDetails = () => {
     },
     [refreshData]
   );
-  console.log(categoryData);
+  // console.log(categoryData);
 
   const handleDelete = async (categoryId) => {
     const response = deleteData(

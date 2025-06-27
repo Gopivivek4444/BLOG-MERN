@@ -103,7 +103,7 @@ export const showAllBlog = async (req, res, next) => {
     try {
         const user = req.user;
         let blogs;
-        console.log(user.role);
+        // console.log(user.role);
         if(user.role === 'admin') {
               blogs = await Blog.find().populate('author', 'name avatar role').populate('category', 'name slug').sort({ createdAt: -1 }).lean().exec();
         }else{

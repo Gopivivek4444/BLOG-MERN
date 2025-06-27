@@ -48,7 +48,7 @@ const EditBlog = () => {
     credentials: "include",
   },[blogId]);
 
-  console.log(blogData);
+  // console.log(blogData);
 
   const [filePreview, setFilePreview] = useState();
   const [file, setFile] = useState();

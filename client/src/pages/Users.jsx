@@ -36,7 +36,7 @@ const Users = () => {
     },
     [refreshData]
   );
-  console.log(data);
+  // console.log(data);
 
   const handleDelete = async (userId) => {
     const response = await deleteData(

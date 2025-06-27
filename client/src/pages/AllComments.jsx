@@ -35,7 +35,7 @@ const AllComments = () => {
     },
     [refreshData]
   );
-  console.log(data);
+  // console.log(data);
 
   const handleDelete = async (commentId) => {
     const response = await deleteData(
